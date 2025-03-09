@@ -137,7 +137,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/assets/img_bg.avif') no-repeat center center/cover;
+    background: url('./assets/img_bg.avif') no-repeat center center/cover;
     padding: 130px 40px 40px;
     /* Adjusted top padding to account for header & moving text */
 }
@@ -224,7 +224,7 @@ nav {
 
 /* 🔹 Skills Section */
 #skills {
-    background: url('/assets/img_bg.avif') no-repeat center center/cover;
+    background: url('./assets/img_bg.avif') no-repeat center center/cover;
     position: relative;
     z-index: 5;
     display: flex;
@@ -384,7 +384,7 @@ nav {
 .projects {
     padding-top: 20px;
     /* Reduced top space */
-    background: url('/assets/img_bg.avif') no-repeat center center/cover;
+    background: url('./assets/img_bg.avif') no-repeat center center/cover;
     /* Same as Home */
     min-height: 100vh;
     /* Ensures full section view */
@@ -529,7 +529,7 @@ nav {
 
 /* 🔹 Contact Section */
 .contact {
-    background: url('/assets/img_bg.avif') no-repeat center center/cover;
+    background: url('./assets/img_bg.avif') no-repeat center center/cover;
     position: relative;
     text-align: center;
     padding: 0 20px 80px;
