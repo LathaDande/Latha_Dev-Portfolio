@@ -181,7 +181,7 @@ nav {
 .home-image img {
     width: 250px;
     /* Retained image size */
-    height: 250px;
+    height: 270px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid black;
@@ -378,6 +378,27 @@ nav {
         height: 70px;
         font-size: 2rem;
     }
+}
+/* Tooltip Effect */
+.skill::after {
+    content: attr(data-skill); /* Fetch skill name from data-skill attribute */
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+/* Show Tooltip on Hover */
+.skill:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
 }
 
 /* Ensure project heading is visible and reduce top space */
